@@ -1,9 +1,9 @@
-# Standalone Eclipse P2 diirector application
+# Standalone Eclipse P2 director application
 
 ## Use with docker
 Create a container from the image:
     
-    docker create --name p2mirror.tool rebaze/p2mirror.tool bash
+    docker create --name p2mirror.tool rebaze/p2mirror.tool.repo bash
     
 Then link the volume into your final container: 
 Any container with at least Java 7 will do.
